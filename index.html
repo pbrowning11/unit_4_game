@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Noto+Serif+JP" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Seasonal Game</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body background= "assets/images/leaves/leaves.png">
+
+    <div class="jumbotron jumbotron-fluid bg-transparent">
+        <div class="container title">
+            <h1 class="display-4 text-center">Seasonal Game</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <p class="text-center">
+                Click on the seasonal images below!
+            </p>
+
+            <p class="text-center">
+                The goal of the game is to match the randomly generated 'Target Score' by clicking on the seasonal pictures.
+                Each picture is assigned a random number, and it's your goal to click on the seasonal pictures and add up your Current Score to match the Target Score.
+                If your score goes over the Target Score, you lose the game.
+            </p>
+            <p class="text-center">
+                When you win, your win total will increase and the game will reset with a new Target Score. If you lose, your losses will increase, the game will reset,
+                and a new Target Score will be assigned.
+            </p>
+    </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-2 spring clk"><img class="img-thumbnail" style="height: 200px; width: 200px" src="assets/images/spring.jpg" alt="spring"></div>
+            <div class="col-md-2 summer clk"><img class="img-thumbnail" style="height: 200px; width: 200px" src="assets/images/summer.jpg" alt="summer"></div>
+            <div class="col-md-2 fall clk"><img class="img-thumbnail" style="height: 200px; width: 200px" src="assets/images/fall.jpg" alt="fall"></div>
+            <div class="col-md-2 winter clk"><img class="img-thumbnail" style="height: 200px; width: 200px" src="assets/images/winter.jpg" alt="winter"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 targetScore">Target Score: </div>
+            <div class="col-md-4 wins">Wins: </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 userScore">Current Score: </div>
+                <div class="col-md-4 losses">Losses: </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
